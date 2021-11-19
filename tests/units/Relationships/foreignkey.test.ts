@@ -1,3 +1,4 @@
+import { MySQLClient } from "../../../deps.ts";
 import { DataTypes, Model, Relationships } from "../../../mod.ts";
 import { getMySQLConnection } from "../../connection.ts";
 import { assertEquals } from "../../deps.ts";
